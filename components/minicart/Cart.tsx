@@ -98,7 +98,7 @@ function Cart() {
         </div>
 
         <div class="p-4">
-          <a class="inline-block w-full" href="/checkout">
+          <a class="inline-block w-full" href="/deco_checkout">
             <Button
               data-deco="buy-button"
               class="btn-primary btn-block"

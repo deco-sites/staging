@@ -4,7 +4,6 @@ interface Props {
 
 const runOnMount = () => {
   window.onload = () => {
-    alert('onload');
 
     const iFrame = document.getElementById(
       "checkout-loader",
@@ -31,7 +30,7 @@ export default function ProxyIframe({ something }: Props) {
       <iframe
         id="checkout-loader"
         style="width:100%;border:none;overflow:hidden;"
-        src="http://localhost:8000/checkout"
+        src="/checkout"
         // onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
       >
       </iframe>
