@@ -106,6 +106,7 @@
               "deco-sites/staging/sections/Links/Shortcuts.tsx",
               "deco-sites/staging/sections/Miscellaneous/CampaignTimer.tsx",
               "deco-sites/staging/sections/Miscellaneous/CookieConsent.tsx",
+              "deco-sites/staging/sections/Miscellaneous/ProxyIframe.tsx",
               "deco-sites/staging/sections/Newsletter/Newsletter.tsx",
               "deco-sites/staging/sections/Product/ProductDetails.tsx",
               "deco-sites/staging/sections/Product/ProductShelf.tsx",
@@ -8689,11 +8690,6 @@
       "required": [],
       "title": "deco-sites/staging/sections/Content/Testimonials.tsx@Props"
     },
-    "L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvc3RkL2NvbXBvbmVudHMvdHlwZXMudHM=@Image": {
-      "type": "string",
-      "format": "image-uri",
-      "title": "Image"
-    },
     "ZGVjby1zaXRlcy9zdGFnaW5nL2NvbXBvbmVudHMvZm9vdGVyL0Zvb3Rlci50c3g=@NewsletterForm": {
       "type": "object",
       "properties": {
@@ -9061,7 +9057,7 @@
           "type": "object",
           "properties": {
             "image": {
-              "$ref": "#/definitions/L1VzZXJzL2dpbWVuZXMvRG9jdW1lbnRzL2NvZGUvc3RkL2NvbXBvbmVudHMvdHlwZXMudHM=@Image",
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image",
               "title": "Image"
             },
             "description": {
@@ -14822,6 +14818,22 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9zdGFnaW5nL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvUHJveHlJZnJhbWUudHN4": {
+      "title": "deco-sites/staging/sections/Miscellaneous/ProxyIframe.tsx",
+      "type": "object",
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/staging/sections/Miscellaneous/ProxyIframe.tsx"
+          ],
+          "default": "deco-sites/staging/sections/Miscellaneous/ProxyIframe.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9zdGFnaW5nL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g=": {
       "title": "deco-sites/staging/sections/Newsletter/Newsletter.tsx",
       "type": "object",
@@ -16275,6 +16287,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFnaW5nL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvQ29va2llQ29uc2VudC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFnaW5nL3NlY3Rpb25zL01pc2NlbGxhbmVvdXMvUHJveHlJZnJhbWUudHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9zdGFnaW5nL3NlY3Rpb25zL05ld3NsZXR0ZXIvTmV3c2xldHRlci50c3g="
