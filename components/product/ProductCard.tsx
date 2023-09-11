@@ -103,7 +103,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
       } ${l?.onMouseOver?.showCardShadow ? "lg:hover:card-bordered" : ""}
         ${
         l?.onMouseOver?.card === "Move up" &&
-        "duration-500 transition-translate ease-in-out lg:hover:-translate-y-2"
+        "duration-500 transition-translate ease-in-out lg:hover:-translate-y-1"
       }
       `}
       data-deco="view-product"
